@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/780f4cda75.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student | N.K.Orchid, Solapur </p>
+                <h1>Hi, I am <span>Megha</span> Gaikwad <br>Computer science and <span1>engineering</span1> student </h1>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!----about---->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a final-year Computer Science student: Web-Enthusiast, familiar with backend technologies, as well as good in problem-solving, Data structures and algorithms, Aptitude. Throughout my studies, I've completed multiple projects demonstrating my ability to solve diverse technical challenges. I see myself in the coming years in a prominent position where I can apply my skills to innovate and create impactful solutions. Besides technical things, I am particularly passionate about designing intuitive interfaces that enhance user experience, aiming to contribute significantly to the field of technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship/Trainings</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programminng</span><br>Programming in different languages like Java, C, C++, </li>
+                            <li><span>Web Technologies</span><br>Proficient in HTML5, CSS3, JavaScript, Bootstrap</li>
+                            <li><span>Database Technologies</span><br>PL/SQL, MySQL</li>
+                            <li><span>Problem Solving Skills</span><br>Data Structures and Algorithms, Aptitude</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Bootcamp</span><br>Google Drive Clone using HTML and CSS by DevTown (Online)</li>
+                            <li><span>Software Testing</span><br>In-house training on Software Testing : JIRA and it’s working (Solapur)</li>
+                            <li><span>Zensar Training</span><br>In-house training : Python, MySQL, Core Java, PLSQL</li>
+                            <li><span>Content Designer Internship</span><br>At To-Let Globe; 66 days remote Internship, Worked on Canva, Html, Css</li>
+                            <li><span>Microsoft Training
+                            </span><br>Microsoft Ambassador program (Online) 7 days training :  Html, CSS, React, Git, GitHub. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>B.Tech | CSE | CGPA:8.09 | N.K.Orchid college of engineering and technology, Solapur</li>
+                            <li><span>2021</span><br>H.S.C (95.67%) | A.D.Joshi junior college, Solapur</li>
+                            <li><span>2019</span><br>S.S.C (91.80) | B.F.Damani High-School, Solapur</li>
+                        </ul>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------Projects------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Edu-Track </h2>
+                <P>A data-driven platform providing personalized career predictions for students based on their interests and knowledge.<br>
+                    • Machine learning <br>
+                    • HTML, CSS, JS <br>
+                    • Python</P>
+                    <a href="#">GitHub Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Memory Game</h2>
+                <P>A card-flipping game designed to enhance memory and cognitive skills through matching pairs.<br>
+                    • HTML <br>
+                    • CSS <br>
+                    • JavaScript</P>
+                    <a href="#">GitHub Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Student Management System</h2>
+                <P>A comprehensive platform for managing student data with full CRUD operations (Create,Read,Update,Delete).<br>
+                    • XAMP server <br>
+                    • PHP <br>
+                    • MYSQL Database <br>
+                    • PhpMyAdmin</P>
+                    <a href="#">GitHub Link</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>WhatsApp feature:Figma</h2>
+                <P>Added a new feature 'Streak' to WhatsApp to keep users engaged. Encouraging regular communication on the platform. <br>• Used Figma tools and prototyping.</P>
+                    <a href="#">Link</a>
+            </div>     
+        </div>
+    </div>
+</div>
+   
+<!--------------------------Certificates--------------------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates and Achievments</h1>
+        <div class="certificate-list">
+            <div class="cer">
+                <img src="images/gcloud.png">
+                <div class="layer">
+                    <h3>Google cloud arcade program</h3>
+                    <p>Achived 4th milestone in program and gained swags and certificate</p>
+                </div>
+            </div>
+            <div class="cer">
+                <img src="images/microsoft.jpg">
+                <div class="layer">
+                    <h3>Microsoft Student-Ambassador Training</h3>
+                    <p>Microsoft Ambassador program (Online) 7 days training </p>
+                </div>
+            </div>
+            <div class="cer">
+                <img src="images/dev.jpg">
+                <div class="layer">
+                    <h3>Devtown Workshop</h3>
+                    <p>Workshop on Google Drive Clone using HTML and CSS</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/tata.jpg">
+                <div class="layer">
+                    <h3>Tata-Imagination Challange</h3>
+                    <p>Participation certificate of Round 1</p>
+                </div> 
+            </div>  
+            <div class="cer">
+                <img src="images/tolet.jpg">
+                <div class="layer">
+                    <h3>Internship certificate</h3>
+                    <p>Completed 66 days remote internship as a content-designer at 'To-Let Globe' organization</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/prb.jpg">
+                <div class="layer">
+                    <h3>Problem solving certificate</h3>
+                    <p>Problem solving basic certificate achived On Hackerrank</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/sql.jpg">
+                <div class="layer">
+                    <h3>SQL basic</h3>
+                    <p>Achived On Hackerrank</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/testing.jpg">
+                <div class="layer">
+                    <h3>Software Testing certificate</h3>
+                    <p>In-house 1 day Software testing training at N.K. Orchid college of engineering, Solapur</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/c.jpg">
+                <div class="layer">
+                    <h3>C Programming</h3>
+                    <p>Workshop on Google Drive Clone using HTML and CSS</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/cpp.jpg">
+                <div class="layer">
+                    <h3>C++ certificate</h3>
+                    <p>Completion of C++ course on GreatLearning</p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/guvi.png">
+                <div class="layer">
+                    <h3>Skill-A-Thon</h3>
+                    <p>Participated in GUVI's Web-design course </p>
+                </div> 
+            </div>
+            <div class="cer">
+                <img src="images/00001.jpg">
+                <div class="layer">
+                    <h3>Canva Achievment</h3>
+                    <p>Certificate on completion of 200 designs in canva</p>
+                </div> 
+            </div>
+    </div>
+    <button class="btn" id="see-more-btn">See more</button>
+
+<script>
+    var cer = document.querySelectorAll('.cer');
+    var btn = document.getElementById('see-more-btn');
+    var currentimg = 3;
+    var isExpanded = false;
+
+    btn.addEventListener('click', function() {
+        if (!isExpanded) {
+            // Show more items
+            for (var i = currentimg; i < cer.length; i++) {
+                cer[i].style.display = 'grid';
+            }
+            btn.textContent = 'See less';
+            isExpanded = true;
+        } else {
+            // Collapse back to original state
+            for (var i = currentimg; i < cer.length; i++) {
+                cer[i].style.display = 'none';
+            }
+            btn.textContent = 'See more';
+            isExpanded = false;
+        }
+    });
+</script>
+ </div>
+</div>
+
+
+<!---------------------------Contact ------------------->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> gaikwadmegha059@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9881786997</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/megha-gaikwad-11052023b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/meghagaikwad059"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/megha2326"><i class="fa-brands fa-hackerrank"></i></a>
+                    
+                </div>
+                <a id="resume" href="images/resume2.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 Made with <i class="fa-solid fa-heart"></i> by Megha</p>
+    </div>
+</div>
+
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link");   
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxC1BGERRBB0BZCZveybeZd_sL-yePZ8BMMW7Oxe9CnByEANeOK5GMfc9A1a-WXg4nB/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+    
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
